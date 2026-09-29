@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="knologyDES premium gym wear, training shoes and fitness accessories." />
+  <title>knologyDES | Premium Gym Wear</title>
+  <link rel="icon" type="image/jpeg" href="assets/favicon.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">FREE U.S. SHIPPING ON ORDERS $100+ <span>•</span> EASY 30-DAY RETURNS <span>•</span> SUPPORT & FIT ADVICE</div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="knologyDES home">
+      <img src="assets/knologydes-logo.jpg" alt="knologyDES logo" />
+      <span>knologyDES</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#shop" data-nav-category="all">Shop</a>
+      <a href="#shop" data-nav-category="men">Men</a>
+      <a href="#shop" data-nav-category="women">Women</a>
+      <a href="#shop" data-nav-category="shoes">Shoes</a>
+      <a href="#shop" data-nav-category="accessories">Accessories</a>
+      <a href="#support">Support</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchFocus" aria-label="Search products">⌕</button>
+      <button class="cart-btn" id="openCart" aria-label="Open shopping cart">Bag <span id="cartCount">0</span></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#shop" data-nav-category="all">Shop all</a>
+    <a href="#shop" data-nav-category="men">Men</a>
+    <a href="#shop" data-nav-category="women">Women</a>
+    <a href="#shop" data-nav-category="shoes">Shoes</a>
+    <a href="#shop" data-nav-category="accessories">Accessories</a>
+    <a href="#support">Support & Advice</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">KNOLOGYDES / 2026 TRAINING COLLECTION</p>
+        <h1>BUILT FOR<br><span>THE WORK.</span></h1>
+        <p>Performance essentials, training footwear and everyday gym gear designed for movement, comfort and a sharp athletic look.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#shop">SHOP THE COLLECTION</a>
+          <a class="btn btn-secondary" href="#support">GET FIT ADVICE</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-card hero-card-one"><img src="assets/products/forge-trainer.svg" alt="" /></div>
+        <div class="hero-card hero-card-two"><img src="assets/products/core-hoodie.svg" alt="" /></div>
+        <div class="hero-stat"><strong>36</strong><span>Training essentials</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Store benefits">
+      <div><strong>FAST SHIPPING</strong><span>Free U.S. shipping $100+</span></div>
+      <div><strong>FIT SUPPORT</strong><span>Help choosing size & gear</span></div>
+      <div><strong>30-DAY RETURNS</strong><span>Simple exchanges</span></div>
+      <div><strong>SECURE CHECKOUT</strong><span>Checkout-ready demo</span></div>
+    </section>
+
+    <section class="category-showcase">
+      <article class="category-tile dark" data-category-jump="men">
+        <div><p>MEN</p><h2>TRAINING<br>ESSENTIALS</h2><button>SHOP MEN →</button></div>
+        <img src="assets/products/apex-oversized-tee.svg" alt="Apex oversized gym t-shirt" />
+      </article>
+      <article class="category-tile light" data-category-jump="women">
+        <div><p>WOMEN</p><h2>MOVE WITH<br>CONFIDENCE</h2><button>SHOP WOMEN →</button></div>
+        <img src="assets/products/sculpt-seamless-leggings.svg" alt="Sculpt seamless gym leggings" />
+      </article>
+      <article class="category-tile accent" data-category-jump="shoes">
+        <div><p>FOOTWEAR</p><h2>STABLE.<br>RESPONSIVE.</h2><button>SHOP SHOES →</button></div>
+        <img src="assets/products/nova-runner.svg" alt="Nova training shoe" />
+      </article>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">SHOP KNOLOGYDES</p><h2>Performance, head to toe.</h2></div>
+        <p>All prices are in USD. Choose a category, search by product name, or sort the full collection.</p>
+      </div>
+
+      <div class="shop-toolbar">
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="men">Men</button>
+          <button class="filter" data-filter="women">Women</button>
+          <button class="filter" data-filter="shoes">Shoes</button>
+          <button class="filter" data-filter="accessories">Accessories</button>
+        </div>
+        <div class="search-sort">
+          <label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Search products" /></label>
+          <select id="sortProducts" aria-label="Sort products">
+            <option value="featured">Featured</option>
+            <option value="low">Price: Low to High</option>
+            <option value="high">Price: High to Low</option>
+            <option value="az">Name: A–Z</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="results-line"><span id="resultsCount">36 products</span><span>Original knologyDES collection</span></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="support-section" id="support">
+      <div class="support-copy">
+        <p class="eyebrow">PERSONAL SUPPORT</p>
+        <h2>Need help choosing your fit or training gear?</h2>
+        <p>Our store includes a dedicated support and product-advice area for sizing, outfit combinations, training shoes and accessories.</p>
+        <div class="support-cards">
+          <div><span>01</span><strong>SIZE & FIT</strong><p>Help choosing the right size for tees, leggings, shorts and hoodies.</p></div>
+          <div><span>02</span><strong>GEAR ADVICE</strong><p>Recommendations by training style: lifting, running, cardio or everyday wear.</p></div>
+          <div><span>03</span><strong>ORDER SUPPORT</strong><p>Questions about shipping, exchanges, returns and order status.</p></div>
+        </div>
+        <div class="contact-line">
+          <div><small>DEMO SUPPORT LINE</small><a href="tel:+12025550147">+1 (202) 555-0147</a><em>Replace with your real business number before launch.</em></div>
+          <div><small>EMAIL</small><a href="mailto:support@knologydes.com">support@knologydes.com</a><em>Use after activating this mailbox.</em></div>
+        </div>
+      </div>
+
+      <form class="advice-form" id="adviceForm">
+        <h3>Request product advice</h3>
+        <label>Name<input required name="name" placeholder="Your name" /></label>
+        <label>Email<input required type="email" name="email" placeholder="you@example.com" /></label>
+        <label>What do you need help with?
+          <select name="topic">
+            <option>Choosing my size</option>
+            <option>Gym outfit recommendation</option>
+            <option>Training shoe recommendation</option>
+            <option>Accessories for lifting</option>
+            <option>Shipping or returns</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" rows="5" placeholder="Tell us what you are looking for..."></textarea></label>
+        <button class="btn btn-primary" type="submit">SEND REQUEST</button>
+        <p class="form-note" id="formNote">Demo form: connect Formspree, Shopify, Netlify Forms, or your backend to receive submissions.</p>
+      </form>
+    </section>
+
+    <section class="newsletter">
+      <div><p class="eyebrow">KNOLOGYDES MEMBERS</p><h2>Get first access to new drops.</h2></div>
+      <form id="newsletterForm"><input type="email" required placeholder="Email address" /><button type="submit">JOIN →</button></form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="assets/knologydes-logo.jpg" alt="knologyDES" /><p>Premium gym wear, footwear and training accessories.</p></div>
+    <div><strong>SHOP</strong><a href="#shop">New drop</a><a href="#shop">Men</a><a href="#shop">Women</a><a href="#shop">Shoes</a><a href="#shop">Accessories</a></div>
+    <div><strong>HELP</strong><a href="#support">Fit advice</a><a href="#support">Support</a><a href="#support">Returns</a><a href="#support">Shipping</a></div>
+    <div><strong>FOLLOW</strong><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
+    <div class="footer-bottom"><span>© 2026 knologyDES. All rights reserved.</span><span>Built for the work. Designed for the life.</span></div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-header"><div><small>YOUR BAG</small><h2>Shopping Cart</h2></div><button id="closeCart" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-row"><span>Subtotal</span><strong id="cartSubtotal">$0.00</strong></div>
+      <p>Shipping and taxes calculated at checkout.</p>
+      <button class="btn btn-primary checkout-btn" id="checkoutBtn">CHECKOUT</button>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <dialog class="quick-view" id="quickView">
+    <button class="dialog-close" id="closeQuick">×</button>
+    <div id="quickContent"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

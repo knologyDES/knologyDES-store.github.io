@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f2"/><stop offset="1" stop-color="#dededb"/></linearGradient>
+  <radialGradient id="spot"><stop offset="0" stop-color="#fff" stop-opacity=".62"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#000" flood-opacity=".22"/></filter>
+</defs>
+<rect width="900" height="1100" fill="url(#bg)"/>
+<circle cx="690" cy="260" r="300" fill="url(#spot)"/>
+<circle cx="190" cy="930" r="270" fill="#fff" opacity=".16"/>
+<g filter="url(#shadow)"><path d="M405 330 Q430 250 465 300 L500 355 L535 300 Q570 250 595 330 L620 500 Q500 545 380 500 Z" fill="#314a42"/><path d="M410 452 Q500 490 590 452" fill="none" stroke="#111" stroke-opacity=".28" stroke-width="26"/><path d="M450 320 L420 425 M550 320 L580 425" stroke="#fff" stroke-opacity=".2" stroke-width="12"/></g>
+<g transform="translate(0,25)"><circle cx="500" cy="530" r="52" fill="#000" opacity=".82"/><text x="500" y="546" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="42" fill="#fff">KD</text></g>
+<text x="55" y="995" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#111">Flex Sports Bra</text>
+<text x="55" y="1038" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500" fill="#333" letter-spacing="4">KNOLOGYDES</text>
+</svg>
