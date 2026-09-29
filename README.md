@@ -56,3 +56,7 @@ knologyDES-store/
 ## Brand line
 
 **BUILT FOR THE WORK. DESIGNED FOR THE LIFE.**
+
+## Product images and pricing update
+
+This build uses photographic fitness imagery for all 36 product cards and fixed USD retail prices. See `PHOTO_CREDITS.md` and `PRICE_REFERENCE.md` for the implementation notes. Replace representative photography with your own final knologyDES product photos before a commercial launch.
